@@ -1,6 +1,5 @@
 import 'package:aws_lambda_dart_runtime/aws_lambda_dart_runtime.dart';
 import 'package:aws_lambda_dart_runtime/runtime/context.dart';
-import 'package:image_quote_generator/image_quote_generator.dart';
 
 void main(List<String> arguments) {
   // Handling an API Gateway request.
