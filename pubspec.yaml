@@ -1,7 +1,7 @@
 name: image_quote_generator
-description: A sample command-line application.
+description: An image quote generator written in Dart to run on AWS Lambda
 version: 1.0.0
-homepage: https://www.github.com/graphicbeacon/image_quote_generator
+homepage: https://github.com/graphicbeacon/aws_image_quote_gen_lambda
 
 environment:
   sdk: '>=2.14.4 <3.0.0'
