@@ -28,6 +28,10 @@ List<String> formatQuoteLines(
       lines.add(sb.toString());
       sb = StringBuffer('$w ');
       lineWidth = ww;
+      
+      if (jj == words.length - 1) {
+        lines.add(sb.toString());
+      }
     }
   }
 
