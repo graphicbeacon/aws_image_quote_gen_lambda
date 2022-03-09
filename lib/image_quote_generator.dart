@@ -20,14 +20,14 @@ List<String> formatQuoteLines(
     if (lineWidth + ww < (contentWidth - (padding * 2))) {
       sb.write('$w ');
       lineWidth += ww + spaceWidth;
-
-      if (jj == words.length - 1) {
-        lines.add(sb.toString());
-      }
     } else {
       lines.add(sb.toString());
       sb = StringBuffer('$w ');
       lineWidth = ww;
+    }
+      
+    if (jj == words.length - 1) {
+      lines.add(sb.toString());
     }
   }
 
